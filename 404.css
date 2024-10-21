@@ -1,0 +1,17 @@
+#corps{
+    width: auto;
+    height: 898px;
+    background-image: url('images/Banner.2png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}@media only screen and (max-width:769px) {
+    #corps{
+        height: 200px;
+    }
+}
+@media only screen and (min-width:768px)and (max-width:1200px){
+    #corps{
+        height: 450px;
+    }
+}

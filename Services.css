@@ -1,0 +1,224 @@
+#part1{
+    width: 100%;
+    height: auto;
+    top: 204px;
+    background-image: url('images/Photouu.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.text1{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-family: 'Roboto';
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    padding: 10% 0;
+}
+#part2{
+    width: 80%;
+    height: auto;
+    top: 654px;
+    background-color: #F9F8F8;
+    padding: 10%;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.group1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.text2{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: 'Yellowtail';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 49.06px;
+    color: #7EB693;
+}
+.text3{
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    color: #274C5B;
+    padding: 0 30%;
+}
+.text4{
+    width: auto;
+    height: auto;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+    text-align: right;
+    color: #274C5B;
+}
+.text5{
+    width: auto;
+    height: auto;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: right;
+    color: #525C60;
+}
+.text6{
+    width: auto;
+    height: auto;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29.3px;
+    text-align: left;
+    color: #274C5B;
+}
+.text7{
+    width: auto;
+    height: auto;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+    color: #525C60;
+}
+.C1,.C2{
+    width: 20%;
+    height: auto;
+}
+.img1{
+    width: 40%;
+    height: auto;
+}
+.vp{
+    width: 10%;
+    height:auto;
+    padding: 18px 12px;
+    gap: 10px;
+    border-radius: 16px ;
+    border: 2px solid black ;
+    background-color: #F9F8F8;
+    margin: 5% 45%;
+}
+#part3{
+    width: 80%;
+    height: 1073px;
+    background-image: url('images/Photopppp.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5% 10%;
+}
+.text8{
+    width: 40%;
+    height: auto;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+    color: #274C5B;
+    margin: 0% 30%;
+}
+.img2{
+    width: 107px;
+    height: 107px;
+    margin: 0% 46%;
+}
+
+@media only screen and (max-width:769px) {
+    .text1{
+        font-size: 180%;
+        padding:5% 0 ;
+    }
+    .img1{
+        display: none;
+    }
+    .C1,.C2{
+        width: 80%;
+        height: auto;
+    }
+    .text2{
+        font-size: 130%;
+    }
+    .text3{
+        font-size: 150%;
+        padding: 0%;
+    }
+    .text4, .text6{
+        text-align: left;
+        font-size: 120%;
+    }
+    .text5, .text7{
+        text-align: left;
+        font-size: 80%;
+    }
+    .vp{
+        width: auto;
+        height: auto;
+        padding: 0%;
+    }
+    #part3{
+        background-image: none;
+        height: auto;
+
+    }
+    .text8{
+        width: 100%;
+        font-size: 100%;
+        margin: 0%;
+    }
+}
+@media only screen and (min-width:768px)and (max-width:1200px){
+    .text1{
+        font-size: 250%;
+        padding:7% 0 ;
+    }
+    .img1{
+        display: none;
+    }
+    .C1,.C2{
+        width: 80%;
+        height: auto;
+    }
+    .text2{
+        font-size: 150%;
+    }
+    .text3{
+        font-size: 200%;
+        padding: 0%;
+    }
+    .text4, .text6{
+        text-align: left;
+        font-size: 150%;
+    }
+    .text5, .text7{
+        text-align: left;
+        font-size: 100%;
+    }
+    .vp{
+        width: auto;
+        height: auto;
+        padding: 0%;
+    }
+    #part3{
+        height: auto;
+        background-image: none;
+
+    }
+    .text8{
+        width: 100%;
+        font-size: 100%;
+        margin: 0%;
+    }
+}
